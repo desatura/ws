@@ -29,9 +29,9 @@ echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 
 #installer ssh Only 
-cd
-wget https://raw.githubusercontent.com/4hidessh/hidessh/main/opok.sh && chmod +x opok.sh  && screen -S opok.sh ./opok.sh
-sleep 3
+#cd
+#wget https://raw.githubusercontent.com/4hidessh/hidessh/main/opok.sh && chmod +x opok.sh  && screen -S opok.sh ./opok.sh
+#sleep 3
 #install websocker SSH dan Dropbear
 cd
 wget https://raw.githubusercontent.com/4hidessh/hidessh/main/webscoket/all-install.sh && chmod +x all-install.sh && ./all-install.sh
