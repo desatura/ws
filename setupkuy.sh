@@ -29,15 +29,15 @@ echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 
 #installer ssh Only 
-#cd
-#wget https://raw.githubusercontent.com/4hidessh/hidessh/main/opok.sh && chmod +x opok.sh  && screen -S opok.sh ./opok.sh
-#sleep 3
+cd
+wget https://raw.githubusercontent.com/4hidessh/hidessh/main/opok.sh && chmod +x opok.sh  && screen -S opok.sh ./opok.sh
+sleep 3
 #install websocker SSH dan Dropbear
-#cd
-#wget https://raw.githubusercontent.com/4hidessh/hidessh/main/webscoket/all-install.sh && chmod +x all-install.sh && ./all-install.sh
+cd
+wget https://raw.githubusercontent.com/4hidessh/hidessh/main/webscoket/all-install.sh && chmod +x all-install.sh && ./all-install.sh
 
 #installer OpenVPN
-wget https://raw.githubusercontent.com/4hidessh/hidessh/main/OVPN/ovpnbaru.sh && chmod +x ovpnbaru.sh && ./ovpnbaru.sh
+#wget https://raw.githubusercontent.com/4hidessh/hidessh/main/OVPN/ovpnbaru.sh && chmod +x ovpnbaru.sh && ./ovpnbaru.sh
 
 wget https://adiscript.vercel.app/vpn/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
@@ -52,7 +52,7 @@ wget https://raw.githubusercontent.com/4hidessh/hidessh/main/vray/ins-vt.sh && c
 wget https://adiscript.vercel.app/vpn/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://adiscript.vercel.app/vpn/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
-rm -f /root/ssh-vpn.sh
+#rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
 rm -f /root/ss.sh
@@ -136,5 +136,5 @@ echo " Harap Reboot Manual ! "
 sleep 3
 rm -f adi.sh
 rm -f setup.sh
-#rm -f setup-opok.sh
-#rm -f opok.sh
+rm -f setup-opok.sh
+rm -f opok.sh
