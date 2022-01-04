@@ -33,8 +33,8 @@ echo "$host" >> /etc/v2ray/domain
 #wget https://raw.githubusercontent.com/4hidessh/hidessh/main/opok.sh && chmod +x opok.sh  && screen -S opok.sh ./opok.sh
 #sleep 3
 #install websocker SSH dan Dropbear
-cd
-wget https://raw.githubusercontent.com/4hidessh/hidessh/main/webscoket/all-install.sh && chmod +x all-install.sh && ./all-install.sh
+#cd
+#wget https://raw.githubusercontent.com/4hidessh/hidessh/main/webscoket/all-install.sh && chmod +x all-install.sh && ./all-install.sh
 
 #installer OpenVPN
 wget https://raw.githubusercontent.com/4hidessh/hidessh/main/OVPN/ovpnbaru.sh && chmod +x ovpnbaru.sh && ./ovpnbaru.sh
@@ -124,11 +124,11 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Adi Project"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/adisubagja"  | tee -a log-install.txt
-echo "   - Instagram               : @adisubagja.id"  | tee -a log-install.txt
+echo "   - Dev/Main                : FS Project"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/fsind"  | tee -a log-install.txt
+echo "   - Instagram               : @FSIND"  | tee -a log-install.txt
 echo "   - Whatsapp                : Gapunya"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/adisubagja.mint" | tee -a log-install.txt
+echo "   - Facebook                : FSIND" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "------------------Script Modified By Adi Subagja-----------------" | tee -a log-install.txt
 echo ""
@@ -136,5 +136,5 @@ echo " Harap Reboot Manual ! "
 sleep 3
 rm -f adi.sh
 rm -f setup.sh
-rm -f setup-opok.sh
-rm -f opok.sh
+#rm -f setup-opok.sh
+#rm -f opok.sh
